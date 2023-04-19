@@ -12,7 +12,7 @@ namespace My_Game
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
-            Content.RootDirectory = "Cont";
+            Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
 
