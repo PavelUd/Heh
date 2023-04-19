@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "URAPfe/LSPRF6AGafUprY7FfVLwyEWDQqAQfkxdwX/sMYJn/PEcPofzl8HZcxyQVygSq7uPreokb/NygHNIU5A==",
+  "dgSpecHash": "QNF/CsTrV6rWpjW1MG4k2Gh1P6mJpRKT6P/4hCqsWkXata6sJOqVxptrh+i9rbk5BtLpkImqdbVYswTqqgBghA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\79136\\Desktop\\My Game\\My Game.csproj",
+  "projectFilePath": "C:\\Games\\Heh\\My Game.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\79136\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\79136\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
