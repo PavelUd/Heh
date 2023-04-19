@@ -4,32 +4,32 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/79136/Desktop/My Game/Content/0.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/1.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/10.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/11.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/12.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/13.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/14.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/15.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/16.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/17.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/18.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/19.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/2.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/3.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/4.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/5.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/6.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/7.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/8.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/9.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/boat.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/j.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/m_boat.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/m_SAc3k1.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/shark.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/shark2.png</File>
+    <File>C:/Games/Heh/Content/0.gif</File>
+    <File>C:/Games/Heh/Content/1.gif</File>
+    <File>C:/Games/Heh/Content/10.gif</File>
+    <File>C:/Games/Heh/Content/11.gif</File>
+    <File>C:/Games/Heh/Content/12.gif</File>
+    <File>C:/Games/Heh/Content/13.gif</File>
+    <File>C:/Games/Heh/Content/14.gif</File>
+    <File>C:/Games/Heh/Content/15.gif</File>
+    <File>C:/Games/Heh/Content/16.gif</File>
+    <File>C:/Games/Heh/Content/17.gif</File>
+    <File>C:/Games/Heh/Content/18.gif</File>
+    <File>C:/Games/Heh/Content/19.gif</File>
+    <File>C:/Games/Heh/Content/2.gif</File>
+    <File>C:/Games/Heh/Content/3.gif</File>
+    <File>C:/Games/Heh/Content/4.gif</File>
+    <File>C:/Games/Heh/Content/5.gif</File>
+    <File>C:/Games/Heh/Content/6.gif</File>
+    <File>C:/Games/Heh/Content/7.gif</File>
+    <File>C:/Games/Heh/Content/8.gif</File>
+    <File>C:/Games/Heh/Content/9.gif</File>
+    <File>C:/Games/Heh/Content/boat.png</File>
+    <File>C:/Games/Heh/Content/j.png</File>
+    <File>C:/Games/Heh/Content/m_boat.png</File>
+    <File>C:/Games/Heh/Content/m_SAc3k1.png</File>
+    <File>C:/Games/Heh/Content/shark.gif</File>
+    <File>C:/Games/Heh/Content/shark2.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

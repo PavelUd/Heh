@@ -65,7 +65,7 @@ namespace My_Game
         public void FishMove()
         {
 //flag == 0 рыба идет вперед
-//flag == 1 рыба возвращается
+//flag == 1 рыба ращается
 //flag == 3 рыба останавливается
             if (Position.X < 651 && flag == 0)
             Position.X += 1;
