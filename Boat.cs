@@ -25,24 +25,17 @@ namespace My_Game
             if (key.IsKeyDown(Keys.A) && Position.X > -10 && line.size.X < 2)
             {
                 Position.X -= 1;
-                if (time == 0)
-                {
-                    flag = false;
-                }
+                
             }
             if (key.IsKeyDown(Keys.D) && Position.X < 650 && line.size.X < 2)
             {
                 Position.X += 1;
-                if (time == 0)
-                {
-                    flag = false;
-                }
             }
         }
-        public void boatDraw(SpriteBatch spriteBatch, Stopwatch stopwatch, bool IsTabKeyPressed)
+        public void boatDraw(SpriteBatch spriteBatch, Stopwatch stopwatch, int IsTabKeyPressed)
         {
             var listBoat = AnimationSprites(2, 9, contentManager, "boat");
-            if (IsTabKeyPressed && !flag)
+            if (IsTabKeyPressed == 1 && !flag)
             {
                 time += 0.1;
                 if (time > 6)
@@ -53,6 +46,8 @@ namespace My_Game
                 spriteBatch.Draw(listBoat[(int)Math.Floor(time)], Position, Color.White);
             }
             else { spriteBatch.Draw(listBoat[0], Position, Color.White); time = 0; }
+            if (IsTabKeyPressed == 0) { flag = false; }
+
         }
     }
 }

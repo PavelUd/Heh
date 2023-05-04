@@ -29,6 +29,7 @@ namespace My_Game
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            IsMouseVisible = true;
         }
 
         protected override void Initialize()
@@ -50,6 +51,7 @@ namespace My_Game
             minigame = new MiniGame(rectangleBlock);
             rectangleBlock.SetData(new[] { xnaColorBorder });
             fishing_line = new Fishing_line(new Point(156, 240));
+            minigame.LoadScales(shark.Position);
         }
 
         protected override void Update(GameTime gameTime)
@@ -66,6 +68,10 @@ namespace My_Game
             fishing_line.IncreaseSizeIfTabKeyPressed(_stopwatch, boat.time);
             fishing_line.RotateIfSizeIsBigEnough(_stopwatch, boat.Position);
             shark.FishMove(fishing_line.Bait);
+            if (shark.flag == 3)
+            {
+                minigame.UpdateScale(shark.Position, _stopwatch);
+            }
             base.Update(gameTime);
         }
 
@@ -83,7 +89,7 @@ namespace My_Game
             _spriteBatch.Draw(rectangleBlock, fishing_line.Create(), fishing_line.Create(), fishing_line.Color, fishing_line.rotation, origin, SpriteEffects.None, 0f);
             if (shark.flag == 3)
             {
-                minigame.DrawMiniGame(_spriteBatch, shark.Position);
+                minigame.DrawMiniGame(_spriteBatch);
             }
             _spriteBatch.End();
 
