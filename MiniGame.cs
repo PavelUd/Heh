@@ -10,6 +10,7 @@ using System.Diagnostics;
 using System.DirectoryServices.ActiveDirectory;
 using System.Reflection.Metadata;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 
 namespace My_Game
 {
@@ -19,9 +20,17 @@ namespace My_Game
         private Scale scale;
         private Scale lineScale;
         private Point position;
-        private readonly Point size = new Point(140, 20);
-        public MiniGame(Texture2D rectangleBlock)
+        private int Level;
+        private int flag = 0;
+        public int Flag
         {
+            get { return flag; }
+            set { flag = value < 0 || value > 2 ? throw new ArgumentOutOfRangeException("miniGmae flag must be between 0 and 2") : value; }
+        }
+        private readonly Point size = new Point(140, 20);
+        public MiniGame(Texture2D rectangleBlock, int level)
+        {
+            Level = level;
             rectangleblock = rectangleBlock;
         }
         public void LoadScales(Vector2 fishPos)
@@ -45,9 +54,20 @@ namespace My_Game
         }
         public void UpdateScale(Vector2 fishPos, Stopwatch time)
         {
+            var key = Keyboard.GetState();
+            if (key.IsKeyDown(Keys.Space))
+            {
+                flag = 1;
+                if (scale.scalePos.X < lineScale.scalePos.X && lineScale.scalePos.X < scale.scalePos.X + 20) {
+                    flag = 2;
+                }
+            }
             position = new Point((int)fishPos.X, (int)fishPos.Y - 30);
-            lineScale.UpdateScale(fishPos, time, size, 5);
-            scale.UpdateScale(fishPos, time, size, 7);
+            if (flag == 0) 
+            {
+                lineScale.UpdateScale(position.ToVector2(), time, size, Level + 1);
+                scale.UpdateScale(position.ToVector2(), time, size, Level);
+            }
         }
         
         

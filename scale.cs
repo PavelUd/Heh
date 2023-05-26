@@ -28,31 +28,34 @@ namespace My_Game
         }
         public void UpdateScale(Vector2 fishPos, Stopwatch time, Point size, int speed)
         {
-            var position = new Point((int)fishPos.X, (int)fishPos.Y - 30);
+            var position = new Point((int)fishPos.X, (int)fishPos.Y);
             var IskeyPressed = false;
             var key = Keyboard.GetState();
+
             if (scalePos.X == 0)
             {
                 scalePos = position;
             }
 
-            if (!flag && time.ElapsedMilliseconds % 2 == 0)
+            switch (flag)
             {
-                scalePos.X += speed;
-                if (scalePos.X > size.X + position.X - scaleSize.X)
-                {
-                    scalePos.X = size.X + position.X - scaleSize.X;
-                    flag = true;
-                }
-            }
-            else if (flag && time.ElapsedMilliseconds % 2 == 0)
-            {
-                scalePos.X -= speed;
-                if (scalePos.X < position.X)
-                {
-                    scalePos.X = position.X;
-                    flag = false;
-                }
+                case false when time.ElapsedMilliseconds % 2 == 0:
+                    scalePos.X += speed;
+                    if (scalePos.X > size.X + position.X - scaleSize.X)
+                    {
+                        scalePos.X = size.X + position.X - scaleSize.X;
+                        flag = true;
+                    }
+                    break;
+
+                case true when time.ElapsedMilliseconds % 2 == 0:
+                    scalePos.X -= speed;
+                    if (scalePos.X < position.X)
+                    {
+                        scalePos.X = position.X;
+                        flag = false;
+                    }
+                    break;
             }
         }
     }
