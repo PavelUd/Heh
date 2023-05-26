@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/79136/Desktop/My Game/Content/boat9.png</SourceFile>
+  <SourceFile>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/boat9.png</SourceFile>
   <SourceTime>2023-05-03T13:36:33.3766951+06:00</SourceTime>
-  <DestFile>C:/Users/79136/Desktop/My Game/Content/bin/Windows/Content/boat9.xnb</DestFile>
-  <DestTime>2023-05-03T13:42:36.6548232+06:00</DestTime>
+  <DestFile>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/bin/Windows/Content/boat9.xnb</DestFile>
+  <DestTime>2023-05-09T14:09:44.7048995+06:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T17:44:56+06:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

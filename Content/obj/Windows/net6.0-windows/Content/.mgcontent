@@ -4,42 +4,94 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/79136/Desktop/My Game/Content/0.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/1.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/10.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/11.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/12.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/13.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/14.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/15.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/16.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/17.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/18.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/19.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/2.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/3.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/4.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/5.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/6.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/7.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/8.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/9.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/boat.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/boat2.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/boat3.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/boat4.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/boat5.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/boat6.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/boat7.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/boat8.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/boat9.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/j.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/m_boat.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/m_SAc3k1.png</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/shark.gif</File>
-    <File>C:/Users/79136/Desktop/My Game/Content/shark2.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/0.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/1.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/10.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/11.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/12.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/13.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/14.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/15.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/16.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/17.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/18.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/19.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/2.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/3.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/4.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/5.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/6.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/7.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/8.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/9.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/boat.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/boat2.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/boat3.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/boat4.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/boat5.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/boat6.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/boat7.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/boat8.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/boat9.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish0.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish1.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish10.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish11.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish2.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish3.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish4.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish5.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish6.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish7.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish8.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/fish9.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/j.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/m_boat.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/m_SAc3k1.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu0.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu1.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu10.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu11.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu2.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu3.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu4.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu5.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu6.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu7.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu8.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/qu9.png</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/shark.gif</File>
+    <File>C:/Users/79136/OneDrive/Рабочий стол/My Game/Content/shark2.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

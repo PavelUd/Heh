@@ -19,7 +19,12 @@ namespace My_Game
         public Color Color;
         public Point size;
         public float rotation;
-        public int IsTabKeyPressed;
+        private int isTabKeyPressed;
+        public int IsTabKeyPressed
+        {
+            get { return isTabKeyPressed; }
+            set { isTabKeyPressed = value >= 0 && value <= 4 ? value : throw new ArgumentOutOfRangeException("Flag must be a value between 0 and 4."); ; }
+        }
         public Fishing_line(Point start)
         {
             rotation = 6.28f;
@@ -36,9 +41,11 @@ namespace My_Game
         }
         public void MoveLine(int flag, Stopwatch stopwatch, double boattime)
         {
-            if (flag == 2 && stopwatch.ElapsedMilliseconds % 5 == 0 && size.X > 1)
+            var key = Keyboard.GetState();
+            if ((key.IsKeyDown(Keys.F) || flag == 3 || flag == 4) && stopwatch.ElapsedMilliseconds % 5 == 0 && size.X > 1)
             {
                 size.X -= 5;
+                Bait.Y -= 5;
                 Color = Color.Black;
             }
             if (flag == 1 && (stopwatch.ElapsedMilliseconds % 10 == 0 && size.X < 200) && (boattime > 5 || boattime == 0))
@@ -52,17 +59,17 @@ namespace My_Game
             var key = Keyboard.GetState();
             if (key.IsKeyDown(Keys.Tab) && IsTabKeyPressed == 0)
             {
-                IsTabKeyPressed = 1;
+                isTabKeyPressed = 1;
             }
             if (key.IsKeyDown(Keys.F))
             {
-                IsTabKeyPressed = 2;
+                isTabKeyPressed = 2;
             }
-            if (IsTabKeyPressed == 2 && size.X < 4)
+            if ((isTabKeyPressed == 2 || isTabKeyPressed == 3) && size.X < 4)
             {
-                IsTabKeyPressed = 0;
+                isTabKeyPressed = 0;
             }
-            MoveLine(IsTabKeyPressed, stopwatch, boattime);
+            MoveLine(isTabKeyPressed, stopwatch, boattime);
         }
         public void RotateIfSizeIsBigEnough(Stopwatch stopwatch, Vector2 boatPosition)
         {
