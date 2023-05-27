@@ -168,3 +168,101 @@ C:\Users\79136\OneDrive\Рабочий стол\My Game\bin\Debug\net6.0-windows
 C:\Users\79136\OneDrive\Рабочий стол\My Game\bin\Debug\net6.0-windows\Content\qu9.xnb
 C:\Users\79136\OneDrive\Рабочий стол\My Game\bin\Debug\net6.0-windows\Content\fish.xnb
 C:\Users\79136\OneDrive\Рабочий стол\My Game\bin\Debug\net6.0-windows\Content\qu.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\background.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\0.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\1.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\10.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\11.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\12.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\13.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\14.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\15.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\16.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\17.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\18.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\19.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\2.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\3.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\4.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\5.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\6.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\7.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\8.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\9.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\boat.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\boat2.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\boat3.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\boat4.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\boat5.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\boat6.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\boat7.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\boat8.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\boat9.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish0.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish1.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish10.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish11.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish2.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish3.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish4.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish5.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish6.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish7.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish8.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\fish9.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\j.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\m_boat.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\m_SAc3k1.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu0.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu1.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu10.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu11.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu2.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu3.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu4.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu5.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu6.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu7.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu8.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\qu9.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\shark.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\Content\shark2.xnb
+C:\Games\Heh\bin\Debug\net6.0-windows\My Game.exe
+C:\Games\Heh\bin\Debug\net6.0-windows\My Game.deps.json
+C:\Games\Heh\bin\Debug\net6.0-windows\My Game.runtimeconfig.json
+C:\Games\Heh\bin\Debug\net6.0-windows\My Game.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\My Game.pdb
+C:\Games\Heh\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\MonoGame.Framework.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\SharpDX.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\SharpDX.Direct3D11.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\SharpDX.MediaFoundation.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\SharpDX.XAudio2.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\SharpDX.XInput.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\runtimes\debian-x64\native\libuv.so
+C:\Games\Heh\bin\Debug\net6.0-windows\runtimes\fedora-x64\native\libuv.so
+C:\Games\Heh\bin\Debug\net6.0-windows\runtimes\opensuse-x64\native\libuv.so
+C:\Games\Heh\bin\Debug\net6.0-windows\runtimes\osx\native\libuv.dylib
+C:\Games\Heh\bin\Debug\net6.0-windows\runtimes\rhel-x64\native\libuv.so
+C:\Games\Heh\bin\Debug\net6.0-windows\runtimes\win7-arm\native\libuv.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
+C:\Games\Heh\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
+C:\Games\Heh\obj\Debug\net6.0-windows\My Game.csproj.AssemblyReference.cache
+C:\Games\Heh\obj\Debug\net6.0-windows\My Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Games\Heh\obj\Debug\net6.0-windows\My Game.AssemblyInfoInputs.cache
+C:\Games\Heh\obj\Debug\net6.0-windows\My Game.AssemblyInfo.cs
+C:\Games\Heh\obj\Debug\net6.0-windows\My Game.csproj.CoreCompileInputs.cache
+C:\Games\Heh\obj\Debug\net6.0-windows\My Game.csproj.CopyComplete
+C:\Games\Heh\obj\Debug\net6.0-windows\My Game.dll
+C:\Games\Heh\obj\Debug\net6.0-windows\refint\My Game.dll
+C:\Games\Heh\obj\Debug\net6.0-windows\My Game.pdb
+C:\Games\Heh\obj\Debug\net6.0-windows\My Game.genruntimeconfig.cache
+C:\Games\Heh\obj\Debug\net6.0-windows\ref\My Game.dll
