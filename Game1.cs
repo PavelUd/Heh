@@ -110,7 +110,7 @@ namespace My_Game
             var list = fish.AnimationSprites(startFrame, endFrame, Content, name);
             var otrlist = fish.AnimationSprites(endFrame + 1, endFrame + (endFrame - startFrame), Content, name);
             fish.AnimationSpeed = animationspeed;
-            fish.DrawFish(_spriteBatch, otrlist, list, fishing_line);
+            fish.Draw(_spriteBatch, otrlist, list, fishing_line);
         }
         public void Start()
         {

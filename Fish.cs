@@ -21,13 +21,14 @@ namespace My_Game
         public MiniGame minigame;
         private Tuple<int, int> distance;
         private int animationSpeed;
-        public int AnimationSpeed { 
+        public int AnimationSpeed
+        {
             get { return animationSpeed; }
             set
             {
-                animationSpeed = value > 0 ? value 
+                animationSpeed = value > 0 ? value
                     : throw new ArgumentOutOfRangeException("animationSpeed must be value > 0"); ;
-            } 
+            }
         }
 
         public Tuple<int, int> Distance
@@ -37,7 +38,7 @@ namespace My_Game
             {
                 distance = (value.Item1 <= -1 && value.Item2 <= -1)
                     ? new Tuple<int, int>(0, 350)
-                    : new Tuple<int, int>((value.Item1 < value.Item2) 
+                    : new Tuple<int, int>((value.Item1 < value.Item2)
                     ? value.Item1 : value.Item2, value.Item2);
             }
         }
@@ -47,19 +48,22 @@ namespace My_Game
         public double Speed
         {
             get { return speed; }
-            set { speed = value > -1 ? value 
-                    : throw new ArgumentOutOfRangeException("Speed must be value >= 0"); ; }
+            set
+            {
+                speed = value > -1 ? value
+                    : throw new ArgumentOutOfRangeException("Speed must be value >= 0"); ;
+            }
         }
         public int Flag
         {
             get { return flag; }
             set
             {
-                flag = (value >= 0 && value <= 5) ? value 
+                flag = (value >= 0 && value <= 5) ? value
                     : throw new ArgumentOutOfRangeException("Flag must be a value between 0 and 5."); ;
             }
         }
-        public Fish(string name, Vector2 pos, ContentManager Content, string otrName, MiniGame minigame, Point size, Tuple<int, int> dis, double  speed) : base(name, pos, Content)
+        public Fish(string name, Vector2 pos, ContentManager Content, string otrName, MiniGame minigame, Point size, Tuple<int, int> dis, double speed) : base(name, pos, Content)
         {
             Speed = speed;
             Name = name;
@@ -85,7 +89,7 @@ namespace My_Game
                 flag = 5;
                 sharkend = true;
             }
-            return sharkend; 
+            return sharkend;
         }
         public void doMiniGame(Fishing_line fishing_line, Stopwatch stopwatch)
         {
@@ -94,19 +98,20 @@ namespace My_Game
                 case 3 when fishing_line.IsTabKeyPressed != 3:
                     minigame.UpdateScale(Position, stopwatch);
                     break;
-
-                case 1 when minigame.Flag == 1:
+            }
+            switch (minigame.Flag)
+            {
+                case 1:
                     flag = 0;
                     minigame.Flag = 0;
                     fishing_line.IsTabKeyPressed = 3;
                     break;
-
-                case not 3 when minigame.Flag == 2:
+                case 2:
                     flag = 4;
+                    minigame.Flag = 0;
                     fishing_line.IsTabKeyPressed = 3;
                     break;
             }
-
             MoveEnd(fishing_line.Bait);
         }
         public void FishMove(Point bait)
@@ -154,7 +159,7 @@ namespace My_Game
                 spriteBatch.Draw(texture, new Rectangle((int)Position.X, (int)Position.Y, Size.X, Size.Y), null, Color.White, rec, origin, SpriteEffects.None, 0f);
             }
         }
-        public void DrawFish(SpriteBatch spriteBatch, List<Texture2D> list = null, List<Texture2D> otrlist = null, Fishing_line fishing_line = null)
+        public void Draw(SpriteBatch spriteBatch, List<Texture2D> list = null, List<Texture2D> otrlist = null, Fishing_line fishing_line = null)
         {
             if (isDrawEnd(fishing_line))
             {
